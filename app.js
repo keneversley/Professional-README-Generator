@@ -78,6 +78,52 @@ const promptUser = () => {
               }
             }
           },
+          //Test Instructions 
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'How do you test this project? (Required)',
+        validate: testingInput => {
+            if (testingInput) {
+                return true;
+            } else {
+                console.log('You need to describe how to test this project!');
+                return false;
+            }
+        }
+    },
+    {
+      type: 'checkbox',
+      name: 'licensing',
+      message: 'Choose a license for your project (Required)',
+      choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
+      validate: licensingInput => {
+          if (licensingInput) {
+              return true;
+          } else {
+              console.log('You must pick a license for the project!');
+              return false;
+          }
+      }
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'Enter your GitHub Username (Required)',
+    validate: githubInput => {
+        if (githubInput) {
+            return true;
+        } else {
+            console.log('Please enter your GitHub username!');
+            return false;
+        }
+    }
+},
+{
+  type: 'input',
+  name: 'email',
+  message: 'Would you like to include your email?',
+},
       
     ]);
   };
