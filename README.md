@@ -27,6 +27,8 @@ roofing
   
   CLICKING ON LINKS :                  
   /Users/k-razor/Professional-README-Generator/Images/CLICK LINK 2.png
+  <img width="493" alt="CLICK LINK 2" src="https://user-images.githubusercontent.com/74880685/166073876-b3d2db7e-90bb-4480-b011-82a685689920.png">
+
 
   ANSWERS ON PROMPT WINDOW: 
   /Users/k-razor/Professional-README-Generator/Images/ASKING .png
